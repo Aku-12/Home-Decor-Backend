@@ -18,7 +18,7 @@ public class StorageService {
     @Autowired
 
     private FileDataRepository fileDataRepository;
-    public final String FOLDER_PATH="C:/Users/basne/Downloads/HomeDecor/HomeDecor/src/main/java/com/example/homedecor/images/";
+    public final String FOLDER_PATH="D:/HomeDecor/HomeDecor/src/main/java/com/example/homedecor/images/";
 
     public String uploadImageToFileSystem(MultipartFile file) throws IOException {
         String filePath = FOLDER_PATH + file.getOriginalFilename();
